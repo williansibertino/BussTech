@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+html {
+    font-size: 16px;
+}
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 10px;
+    }
+}
+body {
+    background-color: #dfe6e9;
+}
+main {
+    background-color: #d4d4d4;
+    display: grid;
+    grid-template-areas:
+        'header section'
+    ;
+    grid-template-columns: 1fr 3fr;
+}
+
+header {
+    grid-area: header;
+    height: 1000px;
+    background-color: #4955fd;
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        background-color: #d4d4d4;
+        display: grid;
+        grid-template-areas:
+            'header'
+            'section'
+        ;
+        grid-template-columns: 1fr;
+    }
+}
+
+section {
+    grid-area: section;
+    background-color: #dfe6e9;
+}
+.logo {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+.menuGeral {
+    padding: 1rem;
+}
+.menuGeral > li {
+    margin: 1rem;
+    border-bottom: 1px solid #a29bfe;
+}
+.linkMenu {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Black Han Sans';
+}
+.linkMenu > ion-icon{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.menuEquipe {
+    padding: 1rem;
+}
+.menuEquipe > li {
+    margin: 1rem;
+}
+.menuEquipe > h2 {
+    font-size: 2rem;
+    margin: 1rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.linkEquipe {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3436;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.barra {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-bottom: 0.3px solid #2d343630;
+}
+.barra > a {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4955fd;
+}
