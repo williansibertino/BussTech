@@ -29,9 +29,11 @@ Willian Pereira da Silva (Criador do Repositorio) dev-willian
 Celiane Ferreira 
 - Criou ...
 
+Yasmin Sales
+- Criou ...
+
 Wagner Alexandre
 - Criou ...
 
 
-Yasmin Silva
-- Criou ...
+

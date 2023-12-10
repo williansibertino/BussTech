@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+html {
+    font-size: 16px;
+}
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 10px;
+    }
+}
+body {
+    background-color: #dfe6e9;
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        'aside header'
+        'aside section'
+        'aside footer'
+    ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+
+    justify-content: space-evenly;
+}
+header {
+    background-color: #000;
+    grid-area: header;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 0.1px solid #2d343650;
+}
+aside {
+    grid-area: aside;
+    background-color: #6c5ce7;
+    border-right: 0.1px solid #2d343650;
+
+    display: grid;
+    align-content: space-between;
+}
+section {
+    grid-area: section;
+}
+footer {
+    background-color: #be5252;
+    grid-area: footer;
+    height: 100px;
+    background-color: #fff;
+    border-top: 0.1px solid #2d343650;
+}
+aside > img {
+    width: 50%;
+    margin: auto;
+}
+.menuGeral {
+    padding: 1rem;
+}
+.menuGeral > li {
+    margin: 1rem;
+    border-bottom: 1px solid #a29bfe;
+}
+.linkMenu {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Black Han Sans';
+}
+.linkMenu > ion-icon{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.menuEquipe {
+    padding: 1rem;
+}
+.menuEquipe > li {
+    margin: 1rem;
+}
+.menuEquipe > h2 {
+    font-size: 2rem;
+    margin: 1rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.linkEquipe {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3436;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
