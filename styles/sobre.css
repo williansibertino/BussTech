@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ .tema {
+
+    padding: 2rem 1rem;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.palavra {
+
+    padding: 1rem 1rem;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
