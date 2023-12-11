@@ -101,3 +101,14 @@ section {
     font-family: 'Roboto', sans-serif;
     color: #4955fd;
 }
+
+p {
+font-family:Arial, Helvetica, sans-serif;
+padding: 5px;
+
+}
+
+h1 {
+    padding: 8px;
+    font-family: 'roboto' , sans-serif;
+}
