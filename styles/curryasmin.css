@@ -1,0 +1,10 @@
+.barra {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-bottom: 0.3px solid #2d343630;
+}
+.barra > a {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4955fd;
+}
