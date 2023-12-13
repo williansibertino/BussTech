@@ -112,3 +112,8 @@ h1 {
     padding: 8px;
     font-family: 'roboto' , sans-serif;
 }
+.corpoHome {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
