@@ -27,13 +27,13 @@ Willian Pereira da Silva (Criador do Repositorio) dev-willian
 
 ## Outros Integrantes do Grupo
 Celiane Ferreira 
-- Criou ...
+- Criou a pagina sobre e o curriculo Celiane
 
 Yasmin Sales
-- Criou ...
+- Criou a pagina processos e o curriculo Yasmin
 
 Wagner Alexandre
-- Criou ...
+- Criou a pagina objtivos e o curriculo Wagner
 
 
 
